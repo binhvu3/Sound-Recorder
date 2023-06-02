@@ -12,7 +12,9 @@ Python module for recording audio and saving it as a file using sounddevice libr
 1. Ensure you have Python installed (version 3.6 or above).
 2. Install the required dependencies by running the following command:
 
-`pip install sounddevice`
+````
+pip install sounddevice
+````
 
 # Usage
 
