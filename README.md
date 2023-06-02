@@ -16,7 +16,8 @@ Python module for recording audio and saving it as a file using sounddevice libr
 
 # Usage
 
-```from voice_recorder import VoiceRecorder
+```
+from voice_recorder import VoiceRecorder
 
 # Create a VoiceRecorder instance
 recorder = VoiceRecorder(duration=10, output_path="./recordings/", file_format="wav")
