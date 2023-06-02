@@ -2,10 +2,10 @@
 Python module for recording audio and saving it as a file using sounddevice library. Provides customizable duration, output directory, and file format (WAV, MP3, FLAC). Easy integration for audio capture.
 
 # Features
-Record audio with customizable duration
-Save recordings in various formats: WAV, MP3, FLAC
-Specify the output directory for saving the audio files
-Easy integration into your Python projects
+- Record audio with customizable duration
+- Save recordings in various formats: WAV, MP3, FLAC
+- Specify the output directory for saving the audio files
+- Easy integration into your Python projects
 
 # Installation
 
@@ -28,6 +28,8 @@ print("Recording saved at:", recording_path)```
 In the above example, we create a VoiceRecorder instance with a recording duration of 10 seconds. The audio file will be saved in the "recordings" directory with the WAV format. The start_record() method is then called to begin the recording process, and the path to the saved recording is printed.
 
 Feel free to adjust the parameters according to your requirements.
+
+
 
 # Contributing
 
