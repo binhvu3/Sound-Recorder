@@ -16,14 +16,14 @@ Easy integration into your Python projects
 
 # Usage
 
-`from voice_recorder import VoiceRecorder
+```from voice_recorder import VoiceRecorder
 
 # Create a VoiceRecorder instance
 recorder = VoiceRecorder(duration=10, output_path="./recordings/", file_format="wav")
 
 # Start recording
 recording_path = recorder.start_record()
-print("Recording saved at:", recording_path)`
+print("Recording saved at:", recording_path)```
 
 In the above example, we create a VoiceRecorder instance with a recording duration of 10 seconds. The audio file will be saved in the "recordings" directory with the WAV format. The start_record() method is then called to begin the recording process, and the path to the saved recording is printed.
 
